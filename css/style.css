@@ -1704,3 +1704,61 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: 10px;
   }
 }
+
+.quienes {
+  display: flex;
+  justify-content: center;
+}
+
+.quieessosmon{
+  color: #ffffff;
+  background-color: black;
+  padding: 50px;
+  width: 80%;
+}
+
+.quieessosmon > h1{
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.quieessosmon > h2{
+  color: #ffffff;
+}
+
+.quieessosmon > h4{
+  color: #ffffff;
+}
+
+.container-sobremi {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  flex-wrap: wrap;
+}
+.sobremi {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.title-sobremi {
+  color: red;
+  font-size: roboto;
+}
+
+.img-sobremi {
+  width: 50%;
+  min-width: 400px;
+  height: 500px;
+}
+.div-text{
+  width: 50%;
+  height: 500px;
+  background-color: black;
+  padding: 50px;
+  min-width: 400px;
+}
+.text-sobremi {
+  color: #ffffff;
+}
