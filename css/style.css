@@ -64,6 +64,7 @@ h6 {
   width: 300px;
   height: 483px;
   object-fit: fill;
+  margin-bottom: 10px;
 }
 .owl-carousel .owl-item img {
   display: block;
@@ -119,6 +120,9 @@ h6 {
   justify-content: space-around;
   align-items: center;
   height: 220px;
+  flex-wrap: wrap;
+  height: auto;
+  margin-bottom: 50px;
 }
 .hola{
   height: 100px;
@@ -401,7 +405,7 @@ h6 {
 /* Mobile Nav Toggle */
 
 #mobile-nav-toggle {
-  position: fixed;
+  position: none;
   right: 0;
   top: 0;
   z-index: 999;
@@ -1647,7 +1651,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #mobile-nav-toggle {
-    display: inline;
+    display: none;
   }
 
   #intro .intro-container {
@@ -1670,7 +1674,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
+    right: 108px;
   }
+
+  .div-text {
+    height: auto !important;
+}
 
   #faq #faq-list a {
     font-size: 18px;
@@ -1696,6 +1705,28 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 480px) {
   #schedule .nav-tabs a {
     padding: 8px 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  #header {
+    width: 87%;
+  }
+  .img-sobremi {
+    width: 100% !important;
+    min-width: 128px !important;
+    height: 200px !important;
+  }
+  .container-sobremi {
+    width: 100% !important;
+}
+.div-text {
+  width: 100% !important;
+  min-width: 300px !important;
+}
+
+  .titleeeeeeeeee {
+    font-size: 20px !important;
   }
 }
 
@@ -1728,7 +1759,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .card-qwe{
   width: 450px;
   background-color: black;
-  height: 500px;
+  height: 542px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -1776,6 +1807,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 50px;
   width: 80%;
 }
+
+@media (max-width: 480px) {
+  .quieessosmon{
+    color: #ffffff;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
 
 .content-cards{
   display: flex;
